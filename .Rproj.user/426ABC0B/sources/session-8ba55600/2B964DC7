@@ -3,7 +3,7 @@
     "path": "~/Documents/1VIRGINIA Tech/Classes/MachineLearning/Blog posts/ML_Class23a/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "3922345329",
+    "hash": "1396369716",
     "contents": "",
     "dirty": false,
     "created": 1702569509787.0,
@@ -11,14 +11,16 @@
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "2,18",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1702569502,
+    "lastKnownWriteTime": 1702575777,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1702569502,
+    "last_content_update": 1702575777032,
     "read_only": false,
     "read_only_alternatives": []
 }
