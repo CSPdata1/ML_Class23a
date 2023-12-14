@@ -2,8 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/welcome/index.html",
-      "/posts/Probability-theory/index.html"
+      "/posts/Linear and nonlinear regression/index.html",
+      "/posts/Clustering/index.html",
+      "/posts/Anomaly - outlier detection/index.html",
+      "/posts/Linear and nonlinear regression1/index.html",
+      "/posts/Probability-theory/index.html",
+      "/posts/welcome/index.html"
     ]
   }
 ]

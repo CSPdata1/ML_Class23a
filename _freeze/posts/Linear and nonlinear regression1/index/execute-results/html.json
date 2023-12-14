@@ -1,0 +1,11 @@
+{
+  "hash": "5a6960d4e2ab0279131b421a2a0754a5",
+  "result": {
+    "markdown": "---\ntitle: Classification\nauthor: Carlos Saint-Preux\ndate: '2023-12-10'\ncategories:\n  - news\n  - code\n  - analysis\nimage: image.jpg\n---\n\n# Exploring Classification in Machine Learning: A Comprehensive Guide with Code and Visualizations\n\n## Introduction:\n\nMachine learning has become an integral part of data analysis and decision-making processes. One of the fundamental tasks in machine learning is classification, where the goal is to assign predefined labels to input data based on its characteristics. In this blog post, we will delve into the world of classification, covering essential concepts, techniques, and providing hands-on code examples. Along the way, we'll use Python and popular machine learning libraries to implement classification algorithms and visualize the results.\n\n### \n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

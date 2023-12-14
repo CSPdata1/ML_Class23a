@@ -13,5 +13,20 @@
   },
   "posts/Probability-theory/index.qmd": {
     "index.html": "f7051add"
+  },
+  "posts/Clustering/index.qmd": {
+    "index.html": "4d2c86c5"
+  },
+  "posts/Linear and nonlinear regression/index.qmd": {
+    "index.html": "7881fbef"
+  },
+  "posts/Classification/index.qmd": {
+    "index.html": "8eda50ee"
+  },
+  "posts/Anomaly - outlier detection/index.qmd": {
+    "index.html": "32992d6d"
+  },
+  "posts/Linear and nonlinear regression1/index.qmd": {
+    "index.html": "fa1f201a"
   }
 }
