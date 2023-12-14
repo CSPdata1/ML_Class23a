@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/Probability-theory/index.html",
+    "href": "posts/Probability-theory/index.html",
+    "title": "Probability theory and random variables",
+    "section": "",
+    "text": "Introduction:\nIn the vast landscape of machine learning, understanding the fundamentals is crucial for building robust models and making informed decisions. Probability theory and random variables form the backbone of many machine learning algorithms, providing a mathematical framework to model uncertainty and variability. In this blog, we’ll delve into the core concepts of probability theory and random variables, and demonstrate their relevance through machine learning code and visualizations.\n\nProbability Theory:\nProbability theory is a branch of mathematics that quantifies uncertainty. It provides a systematic way of reasoning about uncertain events and their likelihood. At the heart of probability theory are probabilities, which measure the likelihood of different outcomes. Let’s start by exploring the basics of probability using Python code.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Simulating a fair six-sided die roll\noutcomes = np.arange(1, 7)\nprobabilities = np.ones(6) / 6\n\n# Visualizing the probability distribution\nplt.bar(outcomes, probabilities, color='skyblue')\nplt.title('Probability Distribution of a Fair Six-sided Die')\nplt.xlabel('Outcome')\nplt.ylabel('Probability')\nplt.show()\n\n\n\n\nIn this example, we simulate a fair six-sided die roll and visualize the probability distribution. Each outcome has an equal probability of 1/6, demonstrating the fundamental concept of probability.\n\n\nRandom Variables:\nRandom variables are variables whose values are determined by chance. They can be discrete or continuous, representing outcomes of random events. Machine learning often deals with random variables, and understanding their properties is essential for designing effective models. Let’s create a simple example using a continuous random variable.\n\n# Simulating a continuous random variable (e.g., normal distribution)\nmean = 0\nstd_dev = 1\nsamples = np.random.normal(mean, std_dev, 1000)\n\n# Visualizing the distribution\nplt.hist(samples, bins=30, density=True, color='lightcoral')\nplt.title('Normal Distribution - Random Variable Example')\nplt.xlabel('Value')\nplt.ylabel('Probability Density')\nplt.show()\n\n\n\n\nIIn this snippet, we generate samples from a normal distribution, a common random variable in statistics. The histogram provides a visual representation of the probability density function.\n\n\nMachine Learning Application:\nProbability theory and random variables are integral to many machine learning algorithms. One common application is in Bayesian machine learning, where probability is used to model uncertainty in predictions. Let’s consider a Bayesian classifier using the famous Iris dataset.\n\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.naive_bayes import GaussianNB\nfrom sklearn import datasets\nfrom sklearn import metrics\n\n# Load Iris dataset\niris = datasets.load_iris()\nX_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3, random_state=42)\n\n# Bayesian classifier\nmodel = GaussianNB()\nmodel.fit(X_train, y_train)\n\n# Predictions\npredictions = model.predict(X_test)\n\n# Model accuracy\naccuracy = metrics.accuracy_score(y_test, predictions)\nprint(f\"Accuracy: {accuracy}\")\n\nAccuracy: 0.9777777777777777\n\n\nIn this example, we apply a Gaussian Naive Bayes classifier to the Iris dataset. Bayesian methods leverage probability theory to update beliefs as new data is observed, making them particularly useful in scenarios with limited data.\n\n\nConclusion:\nProbability theory and random variables are foundational concepts that play a pivotal role in machine learning. They provide a rigorous framework for handling uncertainty, making informed decisions, and building reliable models. As demonstrated through code and visualizations, a solid understanding of these concepts is essential for any aspiring machine learning practitioner. Whether you’re developing algorithms, making predictions, or interpreting results, probability theory and random variables will guide you through the intricate landscape of machine learning."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ML_Class23a",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nProbability theory and random variables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nCarlos Saint-Preux\n\n\n\n\n\n\nNo matching items"
+  }
+]

@@ -1,0 +1,86 @@
+---
+title: "Probability theory and random variables"
+author: "Carlos Saint-Preux"
+date: "2023-12-10"
+categories: [news, code, analysis]
+image: "image.jpg"
+jupyter: python3
+---
+
+Introduction:
+
+In the vast landscape of machine learning, understanding the fundamentals is crucial for building robust models and making informed decisions. Probability theory and random variables form the backbone of many machine learning algorithms, providing a mathematical framework to model uncertainty and variability. In this blog, we'll delve into the core concepts of probability theory and random variables, and demonstrate their relevance through machine learning code and visualizations.
+
+### Probability Theory:
+
+Probability theory is a branch of mathematics that quantifies uncertainty. It provides a systematic way of reasoning about uncertain events and their likelihood. At the heart of probability theory are probabilities, which measure the likelihood of different outcomes. Let's start by exploring the basics of probability using Python code.
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Simulating a fair six-sided die roll
+outcomes = np.arange(1, 7)
+probabilities = np.ones(6) / 6
+
+# Visualizing the probability distribution
+plt.bar(outcomes, probabilities, color='skyblue')
+plt.title('Probability Distribution of a Fair Six-sided Die')
+plt.xlabel('Outcome')
+plt.ylabel('Probability')
+plt.show()
+```
+
+In this example, we simulate a fair six-sided die roll and visualize the probability distribution. Each outcome has an equal probability of 1/6, demonstrating the fundamental concept of probability.
+
+### Random Variables:
+
+Random variables are variables whose values are determined by chance. They can be discrete or continuous, representing outcomes of random events. Machine learning often deals with random variables, and understanding their properties is essential for designing effective models. Let's create a simple example using a continuous random variable.
+
+```{python}
+# Simulating a continuous random variable (e.g., normal distribution)
+mean = 0
+std_dev = 1
+samples = np.random.normal(mean, std_dev, 1000)
+
+# Visualizing the distribution
+plt.hist(samples, bins=30, density=True, color='lightcoral')
+plt.title('Normal Distribution - Random Variable Example')
+plt.xlabel('Value')
+plt.ylabel('Probability Density')
+plt.show()
+```
+
+IIn this snippet, we generate samples from a normal distribution, a common random variable in statistics. The histogram provides a visual representation of the probability density function.
+
+### Machine Learning Application:
+
+Probability theory and random variables are integral to many machine learning algorithms. One common application is in Bayesian machine learning, where probability is used to model uncertainty in predictions. Let's consider a Bayesian classifier using the famous Iris dataset.
+
+```{python}
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import GaussianNB
+from sklearn import datasets
+from sklearn import metrics
+
+# Load Iris dataset
+iris = datasets.load_iris()
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3, random_state=42)
+
+# Bayesian classifier
+model = GaussianNB()
+model.fit(X_train, y_train)
+
+# Predictions
+predictions = model.predict(X_test)
+
+# Model accuracy
+accuracy = metrics.accuracy_score(y_test, predictions)
+print(f"Accuracy: {accuracy}")
+```
+
+In this example, we apply a Gaussian Naive Bayes classifier to the Iris dataset. Bayesian methods leverage probability theory to update beliefs as new data is observed, making them particularly useful in scenarios with limited data.
+
+### Conclusion:
+
+Probability theory and random variables are foundational concepts that play a pivotal role in machine learning. They provide a rigorous framework for handling uncertainty, making informed decisions, and building reliable models. As demonstrated through code and visualizations, a solid understanding of these concepts is essential for any aspiring machine learning practitioner. Whether you're developing algorithms, making predictions, or interpreting results, probability theory and random variables will guide you through the intricate landscape of machine learning.

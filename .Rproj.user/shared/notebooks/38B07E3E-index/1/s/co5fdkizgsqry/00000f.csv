@@ -1,0 +1,23 @@
+"0","reticulate::repl_python()"
+"0","import numpy as np"
+"0","import matplotlib.pyplot as plt"
+"0",""
+"0","# Simulating a fair six-sided die roll"
+"0","outcomes = np.arange(1, 7)"
+"0","probabilities = np.ones(6) / 6"
+"0",""
+"0","# Visualizing the probability distribution"
+"0","plt.bar(outcomes, probabilities, color='skyblue')"
+"0","plt.title('Probability Distribution of a Fair Six-sided Die')"
+"1","<BarContainer object of 6 artists>
+"
+"1","Text(0.5, 1.0, 'Probability Distribution of a Fair Six-sided Die')
+"
+"0","plt.xlabel('Outcome')"
+"1","Text(0.5, 0, 'Outcome')
+"
+"0","plt.ylabel('Probability')"
+"1","Text(0, 0.5, 'Probability')
+"
+"0","plt.show()"
+"0",""
