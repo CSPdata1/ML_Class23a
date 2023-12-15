@@ -229,6 +229,6 @@ plt.show()
 
 ### 6. Conclusion:
 
-In this blog post, we explored classification algorithms, focusing on logistic regression and decision trees. We implemented the algorithms in R using RStudio and visualized their performance and decision boundaries. Classification is a vast field with many algorithms, and this post serves as a starting point for your journey into the world of supervised learning. Experiment with different algorithms, datasets, and visualizations to deepen your understanding and hone your machine learning skills.
+In this blog post, we explored classification algorithms, focusing on logistic regression and decision trees. We implemented the algorithms in R using RStudio and visualized their performance and decision boundaries. With Python, we focused on Logistic Regression, Decision, Trees Random Forest. The dataset we generated for the python codes was not great for classification. I will work on generating or using different dataset and update the blog soon. Classification is a vast field with many algorithms, and this post serves as a starting point for your journey into the world of supervised learning. Experiment with different algorithms, datasets, and visualizations to deepen your understanding and hone your machine learning skills.
 
 ![](images/347329-200.png)
