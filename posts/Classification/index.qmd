@@ -5,7 +5,6 @@ date: "2023-12-10"
 categories: [news, code, analysis]
 image: "image.jpg"
 r: rmarkdown
-jupyter: python3
 ---
 
 # Exploring Classification in Machine Learning: A Comprehensive Guide
@@ -55,8 +54,6 @@ Let's talk a little bit more about the three of them.
 1.  **Logistic Regression:** Despite its name, logistic regression is used for binary classification problems. It models the probability of an instance belonging to a particular class.
 
 2.  **Decision Trees:** Decision trees recursively split the data based on features to create a tree-like structure. Each leaf node represents a class.
-
-<!-- -->
 
 3.  **Random Forests:** An ensemble method that builds multiple decision trees and combines their predictions. It often provides better generalization and robustness.
 
@@ -150,7 +147,7 @@ ggplot() +
 
 ```
 
-## Data Visualization with Python 3
+## Data Visualization with Python
 
 Visualization is crucial for understanding the performance of a classification model. Let's create three essential visualizations: a confusion matrix, a ROC curve, and a precision-recall curve.
 
