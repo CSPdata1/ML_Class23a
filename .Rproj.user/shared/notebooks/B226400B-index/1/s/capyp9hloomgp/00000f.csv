@@ -1,0 +1,25 @@
+"0","# Plotting the scatter plot"
+"0","plt.scatter(X_test, y_test, color='blue', label='Actual Data')"
+"1","<matplotlib.collections.PathCollection object at 0x12cc06890>
+"
+"0","# Plotting the regression line"
+"0","plt.plot(X_test, y_pred, color='red', linewidth=3, label='Linear Regression Line')"
+"1","[<matplotlib.lines.Line2D object at 0x12cbb0950>]
+"
+"0","# Adding labels and legend"
+"0","plt.xlabel('X')"
+"0","plt.ylabel('y')"
+"1","Text(0.5, 0, 'X')
+"
+"1","Text(0, 0.5, 'y')
+"
+"0","plt.title('Linear Regression')"
+"1","Text(0.5, 1.0, 'Linear Regression')
+"
+"0","plt.legend()"
+"1","<matplotlib.legend.Legend object at 0x12c995a50>
+"
+"0","# Displaying the plot"
+"0","plt.show()"
+"0",""
+"0",""
