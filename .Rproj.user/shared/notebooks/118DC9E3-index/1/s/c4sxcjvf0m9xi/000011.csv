@@ -1,0 +1,22 @@
+"0",""
+"0","# Precision-Recall Curve"
+"0","precision, recall, _ = precision_recall_curve(y_test, model.predict_proba(X_test)[:,1])"
+"0","plt.figure(figsize=(8, 6))"
+"0","plt.plot(recall, precision, color='green', lw=2, label='Precision-Recall curve')"
+"1","<Figure size 800x600 with 0 Axes>
+"
+"1","[<matplotlib.lines.Line2D object at 0x130a34650>]
+"
+"0","plt.xlabel('Recall')"
+"1","Text(0.5, 0, 'Recall')
+"
+"0","plt.ylabel('Precision')"
+"1","Text(0, 0.5, 'Precision')
+"
+"0","plt.title('Precision-Recall Curve')"
+"1","Text(0.5, 1.0, 'Precision-Recall Curve')
+"
+"0","plt.legend(loc='upper right')"
+"1","<matplotlib.legend.Legend object at 0x1309ee7d0>
+"
+"0","plt.show()"

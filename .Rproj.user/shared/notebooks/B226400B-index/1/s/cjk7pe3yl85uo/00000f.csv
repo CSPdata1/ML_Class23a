@@ -1,0 +1,36 @@
+"0","# Sorting X_test for better visualization"
+"0","X_test_sorted, y_pred_sorted = zip(*sorted(zip(X_test, y_pred)))"
+"0",""
+"0","# Plotting the scatter plot"
+"0","plt.scatter(X_test, y_test, color='blue', label='Actual Data')"
+"0",""
+"0","# Plotting the linear regression line"
+"1","<matplotlib.collections.PathCollection object at 0x128ceae50>
+"
+"0","plt.plot(X_test_sorted, y_pred_sorted, color='red', linewidth=3, label='Linear Regression Line')"
+"1","[<matplotlib.lines.Line2D object at 0x128db7d50>]
+"
+"0","# Sorting X_test for quadratic regression"
+"0","X_test_sorted, y_poly_pred_sorted = zip(*sorted(zip(X_test, y_poly_pred)))"
+"0",""
+"0","# Plotting the quadratic regression curve"
+"0","plt.plot(X_test_sorted, y_poly_pred_sorted, color='green', linewidth=3, label='Quadratic Regression Curve')"
+"1","[<matplotlib.lines.Line2D object at 0x128deed50>]
+"
+"0","# Adding labels and legend"
+"0","plt.xlabel('X')"
+"1","Text(0.5, 33.792087494287316, 'X')
+"
+"0","plt.ylabel('y')"
+"1","Text(91.76249667174284, 0.5, 'y')
+"
+"0","plt.title('Model Comparison - Linear vs. Quadratic')"
+"1","Text(0.5, 1.0, 'Model Comparison - Linear vs. Quadratic')
+"
+"0","plt.legend()"
+"1","<matplotlib.legend.Legend object at 0x128db1c50>
+"
+"0","# Displaying the plot"
+"0","plt.show()"
+"0",""
+"0",""
