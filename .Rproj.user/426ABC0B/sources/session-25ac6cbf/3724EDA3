@@ -3,7 +3,7 @@
     "path": "~/Documents/1VIRGINIA Tech/Classes/MachineLearning/Blog posts/ML_Class23a/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "2864463318",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1702673660702.0,
@@ -18,14 +18,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "1987:703.3333740234375"
+        "rmdVisualModeLocation": "356:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1702674921,
+    "lastKnownWriteTime": 1702677147,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1702674921814,
+    "last_content_update": 1702677147133,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,5 +1,5 @@
 ---
-title: "Carlos Saint-Preux"
+title: "About"
 image: profile.jpg
 about:
   template: marquee
@@ -14,8 +14,6 @@ about:
       text: Github
       href: https://github.com/CSPdata1
 ---
-
-About this blog
 
 Welcome to Carlos Saint-Preux's Machine Learning Hub!
 
