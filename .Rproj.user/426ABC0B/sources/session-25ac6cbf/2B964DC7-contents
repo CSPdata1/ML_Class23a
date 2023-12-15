@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Machine Learning for Newbies Corner"
+  title: "View Related Posts"
   navbar:
-    background: "orange"
+    background: primary
     left: 
       - "Carlos Saint-Preux"
     right:
