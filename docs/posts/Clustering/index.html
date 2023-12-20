@@ -189,17 +189,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="a-deep-dive-into-clustering-with-machine-learning" class="level2">
-<h2 class="anchored" data-anchor-id="a-deep-dive-into-clustering-with-machine-learning">A Deep Dive into Clustering with Machine Learning</h2>
-<p>Introduction:</p>
+<section id="a-deep-dive-into-clustering-with-machine-learning" class="level1">
+<h1>A Deep Dive into Clustering with Machine Learning</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction:</h2>
 <p>Clustering is a powerful technique in machine learning that involves grouping similar data points together based on certain features or characteristics. It has a wide range of applications, from customer segmentation in marketing to anomaly detection in cybersecurity. In this blog post, we will explore the concept of clustering, its types, and delve into practical examples using machine learning code and visualizations.</p>
-<ol type="1">
-<li>Understanding Clustering:</li>
-</ol>
+<p><img src="images/IMG_0333.JPG" class="img-fluid"></p>
+</section>
+<section id="understanding-clustering" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-clustering">1. understanding Clustering</h2>
 <p>Clustering is an unsupervised learning technique where the algorithm identifies patterns and groups within a dataset without predefined labels. The primary goal is to maximize intra-cluster similarity while minimizing inter-cluster similarity. Common algorithms for clustering include K-Means, hierarchical clustering, and DBSCAN.</p>
-<ol start="2" type="1">
-<li>K-Means Clustering:</li>
-</ol>
+</section>
+<section id="k-means-clustering" class="level2">
+<h2 class="anchored" data-anchor-id="k-means-clustering">2. K-Means Clustering:</h2>
 <p>K-Means is one of the most popular clustering algorithms. It partitions the dataset into ‘k’ clusters, with each cluster represented by its centroid. The algorithm iteratively assigns data points to the nearest centroid and updates the centroids until convergence.</p>
 <p>Let’s implement K-Means clustering using Python and the famous Iris dataset:</p>
 <div class="cell" data-execution_count="1">
@@ -226,7 +228,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Sepal Width (cm)'</span>)</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/Users/carlossaint-preux/anaconda3/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py:1412: FutureWarning:
+<pre><code>/Users/carlossaint-preux/anaconda3/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning:
 
 The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
 </code></pre>
@@ -236,9 +238,9 @@ The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the valu
 </div>
 </div>
 <p>In the above code, we apply K-Means clustering to the Iris dataset and visualize the clusters along with their centroids.</p>
-<ol start="3" type="1">
-<li>Hierarchical Clustering:</li>
-</ol>
+</section>
+<section id="hierarchical-clustering" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-clustering">3. Hierarchical Clustering</h2>
 <p>Hierarchical clustering builds a tree-like hierarchy of clusters. This technique is useful for understanding the relationships between clusters at different levels of granularity. We’ll use the Agglomerative Hierarchical Clustering algorithm for this example.</p>
 <div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries</span></span>
@@ -259,12 +261,14 @@ The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the valu
 </div>
 </div>
 <p>In this code, we use hierarchical clustering on the Iris dataset and visualize the resulting dendrogram.</p>
-<p>Conclusion:</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion:</h2>
 <p>Clustering is a versatile tool in machine learning, providing insights into patterns and structures within datasets. In this blog post, we explored K-Means and hierarchical clustering, implemented them using Python, and visualized the results. These techniques are valuable for various applications, such as customer segmentation, anomaly detection, and more.</p>
 <p>Experiment with different datasets and clustering algorithms to gain a deeper understanding of their capabilities and limitations. As the field of machine learning continues to evolve, clustering remains a fundamental and powerful tool for data analysis.</p>
-<p><img src="images/IMG_0333.JPG" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
