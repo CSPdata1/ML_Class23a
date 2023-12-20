@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Class Project 2023"
+title: "Machine Learning Blog"
 listing:
   contents: posts
   sort: "date asc"
